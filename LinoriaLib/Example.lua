@@ -47,10 +47,10 @@ local Tab1 = TabBox:AddTab('Tab 1')
 local Tab2 = TabBox:AddTab('Tab 2')
 
 -- You can now call AddToggle, etc on the tabs you added to the Tabbox
-]]
+--]]
 
--- Groupbox:AddToggle
--- Arguments: Index, Options
+Groupbox:AddToggle
+Arguments: Index, Options
 LeftGroupBox:AddToggle('MyToggle', {
     Text = 'This is a toggle',
     Default = true, -- Default value (true / false)
